@@ -1,0 +1,4505 @@
+{
+    "totalCount": 1005,
+    "data": [
+        {
+            "s": "NASDAQ:NVDA",
+            "d": [
+                {
+                    "description": "NVIDIA Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "nvidia",
+                        "style": "single"
+                    },
+                    "logoid": "nvidia",
+                    "name": "NVDA",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                202.06,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.18841729472431348,
+                119379248,
+                0.8293964929962016,
+                4910057821685.657,
+                "USD",
+                41.223274032968824,
+                4.9016,
+                66.7494471848954,
+                0.0198333994446648,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:GOOG",
+            "d": [
+                {
+                    "description": "Alphabet Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "alphabet",
+                        "style": "single"
+                    },
+                    "logoid": "alphabet",
+                    "name": "GOOG",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                335.4,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.1785503830288746,
+                12897149,
+                0.835095564047829,
+                4072337305355.3613,
+                "USD",
+                31.038599283724633,
+                10.8059,
+                34.30151628138206,
+                0.247495580436064,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:GOOGL",
+            "d": [
+                {
+                    "description": "Alphabet Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "alphabet",
+                        "style": "single"
+                    },
+                    "logoid": "alphabet",
+                    "name": "GOOGL",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                337.42,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2467806134394728,
+                18784225,
+                0.8019913928448982,
+                4069525602898.749,
+                "USD",
+                31.22553419890986,
+                10.8059,
+                34.30151628138206,
+                0.245844064621868,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AAPL",
+            "d": [
+                {
+                    "description": "Apple Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "apple",
+                        "style": "single"
+                    },
+                    "logoid": "apple",
+                    "name": "AAPL",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                273.05,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.0435554897679729,
+                36589648,
+                0.8485500609788593,
+                4008685343980.7627,
+                "USD",
+                34.54667375186619,
+                7.9038,
+                25.648607401755065,
+                0.384857343744218,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:MSFT",
+            "d": [
+                {
+                    "description": "Microsoft Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "microsoft",
+                        "style": "single"
+                    },
+                    "logoid": "microsoft",
+                    "name": "MSFT",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                418.07,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.1163934813973904,
+                27582222,
+                0.81670565401496,
+                3104432739579.131,
+                "USD",
+                26.15733064712912,
+                15.9829,
+                28.732401172718202,
+                0.823103668487902,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AMZN",
+            "d": [
+                {
+                    "description": "Amazon.com, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "amazon",
+                        "style": "single"
+                    },
+                    "logoid": "amazon",
+                    "name": "AMZN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                248.28,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.9099616858237551,
+                39461417,
+                0.8232600997029799,
+                2670065648905.785,
+                "USD",
+                34.61699339114916,
+                7.1722,
+                29.884099963781235,
+                0,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AVGO",
+            "d": [
+                {
+                    "description": "Broadcom Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "broadcom",
+                        "style": "single"
+                    },
+                    "logoid": "broadcom",
+                    "name": "AVGO",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                399.63,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.6997097456584898,
+                16922023,
+                0.6906351313565868,
+                1892115400121.2795,
+                "USD",
+                77.95529026217228,
+                5.1264,
+                147.2579945015193,
+                0.610026073695085,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:META",
+            "d": [
+                {
+                    "description": "Meta Platforms, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "meta-platforms",
+                        "style": "single"
+                    },
+                    "logoid": "meta-platforms",
+                    "name": "META",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                670.91,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -2.5619054534892145,
+                12533850,
+                0.8268874669547002,
+                1697104017123.4683,
+                "USD",
+                28.560421269512872,
+                23.4909,
+                -1.8041592642909376,
+                0.304988744463002,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:TSM",
+            "d": [
+                {
+                    "description": "Taiwan Semiconductor Manufacturing Company Ltd.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "taiwan-semiconductor",
+                        "style": "single"
+                    },
+                    "logoid": "taiwan-semiconductor",
+                    "name": "TSM",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                366.24,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.1497975708502,
+                11638293,
+                0.8703753229695071,
+                1670257820358.75,
+                "USD",
+                30.438576807041166,
+                12.0321,
+                54.805465493283926,
+                0.615809446693657,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:TSLA",
+            "d": [
+                {
+                    "description": "Tesla, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "tesla",
+                        "style": "single"
+                    },
+                    "logoid": "tesla",
+                    "name": "TSLA",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                392.5,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -2.026858369527234,
+                64603797,
+                0.8897194226884942,
+                1472829496819.0803,
+                "USD",
+                364.7769516728624,
+                1.076,
+                -47.21091105332875,
+                0,
+                "Consumer durables",
+                "america",
+                "Consumer Durables",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NASDAQ:WMT",
+            "d": [
+                {
+                    "description": "Walmart Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "walmart",
+                        "style": "single"
+                    },
+                    "logoid": "walmart",
+                    "name": "WMT",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                127.92,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.32941176470588374,
+                18933579,
+                1.1489610934274888,
+                1019829707812.3746,
+                "USD",
+                46.86229255962194,
+                2.7297,
+                13.38317757009344,
+                0.747058823529412,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:BRK.B",
+            "d": [
+                {
+                    "description": "Berkshire Hathaway Inc. New",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "berkshire-hathaway",
+                        "style": "single"
+                    },
+                    "logoid": "berkshire-hathaway",
+                    "name": "BRK.B",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                472.08,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.5267815752876228,
+                5146208,
+                1.1360370584769872,
+                1017530250049.9991,
+                "USD",
+                15.207783003672443,
+                31.042,
+                -24.793704785855137,
+                0,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:LLY",
+            "d": [
+                {
+                    "description": "Eli Lilly and Company",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "eli-lilly",
+                        "style": "single"
+                    },
+                    "logoid": "eli-lilly",
+                    "name": "LLY",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                919.9,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.7691228978565954,
+                1926240,
+                0.7544028963581919,
+                869138885426.3159,
+                "USD",
+                40.72245954979083,
+                22.5895,
+                96.61679330844018,
+                0.672038661100504,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:JPM",
+            "d": [
+                {
+                    "description": "JP Morgan Chase \u0026 Co.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "jpmorgan-chase",
+                        "style": "single"
+                    },
+                    "logoid": "jpmorgan-chase",
+                    "name": "JPM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                316.99,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                2.1592703599858156,
+                10771753,
+                1.235452533976756,
+                854932346431.3262,
+                "USD",
+                15.18340406372441,
+                20.8774,
+                2.4753228521923547,
+                1.86921911759967,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:XOM",
+            "d": [
+                {
+                    "description": "Exxon Mobil Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "exxon",
+                        "style": "single"
+                    },
+                    "logoid": "exxon",
+                    "name": "XOM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                147.68,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.8467631794591705,
+                16354407,
+                0.7543715328210058,
+                615347669321.2632,
+                "USD",
+                22.05891139391767,
+                6.6948,
+                -14.721355327686139,
+                2.7588090685605,
+                "Energy minerals",
+                "america",
+                "Energy Minerals",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:V",
+            "d": [
+                {
+                    "description": "Visa Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "visa",
+                        "style": "single"
+                    },
+                    "logoid": "visa",
+                    "name": "V",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                313.94,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.9715475364330277,
+                5506799,
+                0.9533342719872451,
+                598372557155.3956,
+                "USD",
+                29.749450382836784,
+                10.5528,
+                7.797129577608654,
+                0.794902529808845,
+                "Finance",
+                "america",
+                "Finance",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "OTC:TCEHY",
+            "d": [
+                {
+                    "description": "Tencent Holding Ltd.",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "tencent",
+                        "style": "single"
+                    },
+                    "logoid": "tencent",
+                    "name": "TCEHY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                66.81,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.16491754122938446,
+                2613640,
+                0.7391595062628075,
+                589280806463.1154,
+                "USD",
+                19.836698337292162,
+                3.368,
+                17.92717086834734,
+                0.770902481671217,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:ASML",
+            "d": [
+                {
+                    "description": "ASML Holding N.V. - New York Registry Shares",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "asml",
+                        "style": "single"
+                    },
+                    "logoid": "asml",
+                    "name": "ASML",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                1476.5,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.1439923277161286,
+                1091852,
+                0.5344861523622229,
+                558898404791.983,
+                "USD",
+                49.231107791618875,
+                29.9912,
+                26.402744587321447,
+                0.448804767776408,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:JNJ",
+            "d": [
+                {
+                    "description": "Johnson \u0026 Johnson",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "johnson-and-johnson",
+                        "style": "single"
+                    },
+                    "logoid": "johnson-and-johnson",
+                    "name": "JNJ",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                230.69,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.4903066017593343,
+                7810448,
+                1.0401914652244784,
+                555642980473.3444,
+                "USD",
+                26.673064471371752,
+                8.6488,
+                -3.8584243933347526,
+                2.22051413442651,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:ORCL",
+            "d": [
+                {
+                    "description": "Oracle Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "oracle",
+                        "style": "single"
+                    },
+                    "logoid": "oracle",
+                    "name": "ORCL",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                177.58,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.4395064549297443,
+                22330625,
+                0.6290632903821334,
+                510728223521.9881,
+                "USD",
+                31.883225308364906,
+                5.5697,
+                30.860861801607076,
+                1.02821889637838,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:MU",
+            "d": [
+                {
+                    "description": "Micron Technology, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "micron-technology",
+                        "style": "single"
+                    },
+                    "logoid": "micron-technology",
+                    "name": "MU",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                448.42,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.4613136440547558,
+                32012600,
+                0.785997358575891,
+                505698492359.8576,
+                "USD",
+                21.17056082487855,
+                21.1813,
+                409.11691183540046,
+                0.108774474256708,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:MA",
+            "d": [
+                {
+                    "description": "Mastercard Incorporated",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "mastercard",
+                        "style": "single"
+                    },
+                    "logoid": "mastercard",
+                    "name": "MA",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                516.65,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.8920007673124838,
+                2503858,
+                0.7913961759869108,
+                460754811231.0793,
+                "USD",
+                31.27326654762265,
+                16.5205,
+                18.957782786206483,
+                0.60425858430846,
+                "Finance",
+                "america",
+                "Finance",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AMD",
+            "d": [
+                {
+                    "description": "Advanced Micro Devices, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "advanced-micro-devices",
+                        "style": "single"
+                    },
+                    "logoid": "advanced-micro-devices",
+                    "name": "AMD",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                274.95,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2356765688422708,
+                34833848,
+                1.055730902795852,
+                448261661556.6947,
+                "USD",
+                103.9587114337568,
+                2.6448,
+                163.63636363636363,
+                0,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:COST",
+            "d": [
+                {
+                    "description": "Costco Wholesale Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "costco-wholesale",
+                        "style": "single"
+                    },
+                    "logoid": "costco-wholesale",
+                    "name": "COST",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                997.84,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.20502255248076837,
+                1475447,
+                0.7574708405604962,
+                442694243882.6229,
+                "USD",
+                51.8943432336712,
+                19.2283,
+                12.251891462731184,
+                0.506055666123274,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:NFLX",
+            "d": [
+                {
+                    "description": "Netflix, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "netflix",
+                        "style": "single"
+                    },
+                    "logoid": "netflix",
+                    "name": "NFLX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                94.83,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -2.5485561607234652,
+                63297882,
+                1.4086553699585866,
+                400387622786.46234,
+                "USD",
+                30.642711732962805,
+                3.0947,
+                46.23854078064454,
+                0,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:CAT",
+            "d": [
+                {
+                    "description": "Caterpillar, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "caterpillar",
+                        "style": "single"
+                    },
+                    "logoid": "caterpillar",
+                    "name": "CAT",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                798.4,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.47190587050902916,
+                1454089,
+                0.668280614168364,
+                371485434460.2912,
+                "USD",
+                42.408307438982284,
+                18.8265,
+                -14.698739499605809,
+                0.747498898886302,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:CVX",
+            "d": [
+                {
+                    "description": "Chevron Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "chevron",
+                        "style": "single"
+                    },
+                    "logoid": "chevron",
+                    "name": "CVX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                183.25,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.4021957715093261,
+                9661076,
+                0.8299480279310837,
+                365654403434.35913,
+                "USD",
+                27.56468110709988,
+                6.648,
+                -31.455437786117873,
+                3.75563889341812,
+                "Energy minerals",
+                "america",
+                "Energy Minerals",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:ABBV",
+            "d": [
+                {
+                    "description": "AbbVie Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "abbvie",
+                        "style": "single"
+                    },
+                    "logoid": "abbvie",
+                    "name": "ABBV",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                203.71,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -2.241097994049327,
+                5774268,
+                0.93034715531847,
+                360314582504.53625,
+                "USD",
+                86.26662149572287,
+                2.3614,
+                -1.262752968723858,
+                3.19128515212592,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:HD",
+            "d": [
+                {
+                    "description": "Home Depot, Inc. (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "home-depot",
+                        "style": "single"
+                    },
+                    "logoid": "home-depot",
+                    "name": "HD",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                350.99,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.45506582713223576,
+                3260906,
+                0.913239009071545,
+                349590039943.9203,
+                "USD",
+                24.656485332134427,
+                14.2352,
+                -4.561666979538194,
+                2.64167143674871,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:PLTR",
+            "d": [
+                {
+                    "description": "Palantir Technologies Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "palantir",
+                        "style": "single"
+                    },
+                    "logoid": "palantir",
+                    "name": "PLTR",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                145.89,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.34155338479404335,
+                33481888,
+                0.5684415730980643,
+                348921566874.42236,
+                "USD",
+                230.5467762326169,
+                0.6328,
+                234.63775780010582,
+                0,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:CSCO",
+            "d": [
+                {
+                    "description": "Cisco Systems, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "cisco",
+                        "style": "single"
+                    },
+                    "logoid": "cisco",
+                    "name": "CSCO",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                87.71,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.6927536231883984,
+                16695559,
+                0.9680094068230591,
+                346445120854.96094,
+                "USD",
+                30.85338398761784,
+                2.8428,
+                24.569475483107674,
+                1.90144927536232,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:PG",
+            "d": [
+                {
+                    "description": "Procter \u0026 Gamble Company (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "procter-and-gamble",
+                        "style": "single"
+                    },
+                    "logoid": "procter-and-gamble",
+                    "name": "PG",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                144.49,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.6606547335465853,
+                8084743,
+                1.0013339653889834,
+                335794849088.56305,
+                "USD",
+                21.409732100521577,
+                6.7488,
+                7.5231813402160395,
+                2.80854828830055,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:INTC",
+            "d": [
+                {
+                    "description": "Intel Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "intel",
+                        "style": "single"
+                    },
+                    "logoid": "intel",
+                    "name": "INTC",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                65.7,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -4.087591240875908,
+                96851042,
+                0.8121848644992143,
+                329880341601.26276,
+                "USD",
+                null,
+                -0.0819,
+                98.1271438371827,
+                0,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NASDAQ:LRCX",
+            "d": [
+                {
+                    "description": "Lam Research Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "lam-research",
+                        "style": "single"
+                    },
+                    "logoid": "lam-research",
+                    "name": "LRCX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                263.16,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.6591928251121066,
+                5989899,
+                0.6993590505574959,
+                328626582827.8749,
+                "USD",
+                53.93396593773698,
+                4.8793,
+                48.266431675225604,
+                0.377428998505232,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:KO",
+            "d": [
+                {
+                    "description": "Coca-Cola Company (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "coca-cola",
+                        "style": "single"
+                    },
+                    "logoid": "coca-cola",
+                    "name": "KO",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                75.48,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.3432796408766714,
+                10141759,
+                0.8011217962275777,
+                324877446598.23663,
+                "USD",
+                24.841204541714664,
+                3.0385,
+                23.486141591481758,
+                2.71983100079218,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:GE",
+            "d": [
+                {
+                    "description": "GE Aerospace",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "ge-aerospace",
+                        "style": "single"
+                    },
+                    "logoid": "ge-aerospace",
+                    "name": "GE",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                303.6,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.1742675829414963,
+                5315218,
+                1.0148595308719217,
+                317210268569.492,
+                "USD",
+                37.30279648105372,
+                8.1388,
+                36.25299248321698,
+                0.509650478413836,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:HSBC",
+            "d": [
+                {
+                    "description": "HSBC Holdings, plc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "hsbc",
+                        "style": "single"
+                    },
+                    "logoid": "hsbc",
+                    "name": "HSBC",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                91.59,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.6184895833333259,
+                1510276,
+                0.8577585616915862,
+                317024641231.64056,
+                "USD",
+                15.2670356047473,
+                5.9992,
+                -2.8674125285365064,
+                4.04730902777778,
+                "Finance",
+                "america",
+                "Finance",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NYSE:BABA",
+            "d": [
+                {
+                    "description": "Alibaba Group Holding Limited",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "alibaba",
+                        "style": "single"
+                    },
+                    "logoid": "alibaba",
+                    "name": "BABA",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                140.17,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.5957024324516016,
+                7823275,
+                0.725030681584122,
+                313581128716.8095,
+                "USD",
+                26.056324937261824,
+                5.3795,
+                -22.277284942352704,
+                0.730444649315651,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:AZN",
+            "d": [
+                {
+                    "description": "AstraZeneca PLC",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "astrazeneca",
+                        "style": "single"
+                    },
+                    "logoid": "astrazeneca",
+                    "name": "AZN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                200.69,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -2.0068359375000067,
+                1104552,
+                0.6351917746048885,
+                311236710256.4736,
+                "USD",
+                29.897090012202312,
+                6.712693440000001,
+                51.836125613653884,
+                1.56237597565816,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AMAT",
+            "d": [
+                {
+                    "description": "Applied Materials, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "applied-materials",
+                        "style": "single"
+                    },
+                    "logoid": "applied-materials",
+                    "name": "AMAT",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                391.62,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.340252934952384,
+                3747439,
+                0.6993033052924472,
+                310793496569.38116,
+                "USD",
+                40.11349203097472,
+                9.7628,
+                27.716801193077018,
+                0.463546127878269,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:MS",
+            "d": [
+                {
+                    "description": "Morgan Stanley",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "morgan-stanley",
+                        "style": "single"
+                    },
+                    "logoid": "morgan-stanley",
+                    "name": "MS",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                190.7,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.995657239699182,
+                4905525,
+                0.7231239929401759,
+                302804957510.2431,
+                "USD",
+                17.276993603797855,
+                11.0378,
+                29.512120714336,
+                2.07869929032941,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:UNH",
+            "d": [
+                {
+                    "description": "UnitedHealth Group Incorporated",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "unitedhealth",
+                        "style": "single"
+                    },
+                    "logoid": "unitedhealth",
+                    "name": "UNH",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                323.48,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.354249453223663,
+                9049398,
+                1.0864273470969985,
+                293614985878.6719,
+                "USD",
+                24.517576437417578,
+                13.1938,
+                -15.09617302779333,
+                2.72310014478021,
+                "Health services",
+                "america",
+                "Health Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "OTC:LVMUY",
+            "d": [
+                {
+                    "description": "LVMH-Moet Hennessy Louis Vuitton",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "lvmh",
+                        "style": "single"
+                    },
+                    "logoid": "lvmh",
+                    "name": "LVMUY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                115.58,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.6019951840385301,
+                348854,
+                0.8288070399680693,
+                291977743653.5621,
+                "USD",
+                23.446121389159366,
+                4.9296,
+                -9.263929025014269,
+                1.80226178190574,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:MRK",
+            "d": [
+                {
+                    "description": "Merck \u0026 Company, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "merck-and-co",
+                        "style": "single"
+                    },
+                    "logoid": "merck-and-co",
+                    "name": "MRK",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                117.1,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.6544889560762568,
+                7392032,
+                0.7543817146583315,
+                289517112978.49414,
+                "USD",
+                16.095998680430508,
+                7.2751,
+                8.03694738561606,
+                2.78827580414882,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:GS",
+            "d": [
+                {
+                    "description": "Goldman Sachs Group, Inc. (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "golden-sachs-etf-trust-goldman",
+                        "style": "single"
+                    },
+                    "logoid": "golden-sachs-etf-trust-goldman",
+                    "name": "GS",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                941.74,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.7052756628327626,
+                2374271,
+                1.0398609776091454,
+                277807584476.76,
+                "USD",
+                17.208305391048846,
+                54.7259,
+                27.00400789976306,
+                1.67395647713159,
+                "Finance",
+                "america",
+                "Finance",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NYSE:NVS",
+            "d": [
+                {
+                    "description": "Novartis AG",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "novartis",
+                        "style": "single"
+                    },
+                    "logoid": "novartis",
+                    "name": "NVS",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                150.99,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.6448641179180035,
+                1229057,
+                0.978321823660137,
+                277321513300.84424,
+                "USD",
+                21.008473515047797,
+                7.1871,
+                22.42530576091031,
+                2.02747910771863,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NYSE:TM",
+            "d": [
+                {
+                    "description": "Toyota Motor Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "toyota",
+                        "style": "single"
+                    },
+                    "logoid": "toyota",
+                    "name": "TM",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                215.25,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.8977900552486135,
+                867527,
+                2.9787388189178876,
+                274538507238.92188,
+                "USD",
+                11.378774422735347,
+                18.9168,
+                -25.003270759410878,
+                2.59288627992634,
+                "Consumer durables",
+                "america",
+                "Consumer Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:GEV",
+            "d": [
+                {
+                    "description": "GE Vernova Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "ge-verona",
+                        "style": "single"
+                    },
+                    "logoid": "ge-verona",
+                    "name": "GEV",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                990.18,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2535527299925255,
+                1804863,
+                0.9473924730279722,
+                266882700486.6507,
+                "USD",
+                55.66373969845856,
+                17.7886,
+                216.20804891922637,
+                0.149588631264024,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:RTX",
+            "d": [
+                {
+                    "description": "RTX Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "raytheon",
+                        "style": "single"
+                    },
+                    "logoid": "raytheon",
+                    "name": "RTX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                195.79,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.32074126870990505,
+                4988034,
+                1.3978659093655457,
+                263528294612.71057,
+                "USD",
+                39.4546993390295,
+                4.9624,
+                39.67574870524656,
+                1.3847876998269,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "OTC:NSRGY",
+            "d": [
+                {
+                    "description": "Nestle S.A.",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "nestle",
+                        "style": "single"
+                    },
+                    "logoid": "nestle",
+                    "name": "NSRGY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                101.35,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.6604757411729573,
+                285043,
+                0.9263699025248383,
+                255513206982.90506,
+                "USD",
+                24.09423735260555,
+                4.2064,
+                -11.70259661201955,
+                2.35657943089835,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:RY",
+            "d": [
+                {
+                    "description": "Royal Bank Of Canada",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "royal-bank-of-canada",
+                        "style": "single"
+                    },
+                    "logoid": "royal-bank-of-canada",
+                    "name": "RY",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                180.01,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.8798475678099043,
+                1069906,
+                0.6219756682669317,
+                251403737091.14117,
+                "USD",
+                16.84420999870958,
+                10.68675824,
+                26.4557125365949,
+                2.53859067272653,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:WFC",
+            "d": [
+                {
+                    "description": "Wells Fargo \u0026 Company",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "wells-fargo",
+                        "style": "single"
+                    },
+                    "logoid": "wells-fargo",
+                    "name": "WFC",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                81.97,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.687876182287191,
+                14240496,
+                0.8228810470491508,
+                251180686301.53656,
+                "USD",
+                12.665914674660444,
+                6.4717,
+                16.276186711703616,
+                2.14961306964746,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:PM",
+            "d": [
+                {
+                    "description": "Philip Morris International Inc",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "philip-morris",
+                        "style": "single"
+                    },
+                    "logoid": "philip-morris",
+                    "name": "PM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                157.55,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.1521008935927376,
+                4324883,
+                1.0118712199592166,
+                245546434132.2904,
+                "USD",
+                21.688256266949328,
+                7.2643,
+                60.67194550119437,
+                3.650421446226,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:SHEL",
+            "d": [
+                {
+                    "description": "Shell PLC",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "shell",
+                        "style": "single"
+                    },
+                    "logoid": "shell",
+                    "name": "SHEL",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                88,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.21637626693998147,
+                5159822,
+                0.7750578267911615,
+                241712984917.72177,
+                "USD",
+                14.654698662758747,
+                6.0049,
+                19.47672105053721,
+                3.29347454731807,
+                "Energy minerals",
+                "america",
+                "Energy Minerals",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:IBM",
+            "d": [
+                {
+                    "description": "International Business Machines Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "international-bus-mach",
+                        "style": "single"
+                    },
+                    "logoid": "international-bus-mach",
+                    "name": "IBM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                253.71,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.0946857616285987,
+                5157165,
+                1.1473905109769187,
+                237988699330.15433,
+                "USD",
+                22.757934016253746,
+                11.1482,
+                73.72915692691288,
+                2.65120132560066,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:KLAC",
+            "d": [
+                {
+                    "description": "KLA Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "kla-tencor",
+                        "style": "single"
+                    },
+                    "logoid": "kla-tencor",
+                    "name": "KLAC",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                1805.32,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.7747956950832784,
+                623230,
+                0.7780620047615302,
+                236635225732.08307,
+                "USD",
+                52.445929261384265,
+                34.4225,
+                44.76434396067001,
+                0.424239717768946,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:LIN",
+            "d": [
+                {
+                    "description": "Linde plc",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "linde",
+                        "style": "single"
+                    },
+                    "logoid": "linde",
+                    "name": "LIN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                498.15,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.2026897994839727,
+                1717553,
+                0.8941221313881168,
+                230839808466.25803,
+                "USD",
+                34.126174018482864,
+                14.5973,
+                7.1935789450494685,
+                1.23925807041424,
+                "Process industries",
+                "america",
+                "Process Industries",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:C",
+            "d": [
+                {
+                    "description": "Citigroup, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "citigroup",
+                        "style": "single"
+                    },
+                    "logoid": "citigroup",
+                    "name": "C",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                133.05,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.6581933726736303,
+                10151766,
+                0.7975591111809595,
+                228168426333.8391,
+                "USD",
+                16.486988847583643,
+                8.07,
+                27.480096044483766,
+                1.78544409139053,
+                "Finance",
+                "america",
+                "Finance",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:AXP",
+            "d": [
+                {
+                    "description": "American Express Company",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "american-express",
+                        "style": "single"
+                    },
+                    "logoid": "american-express",
+                    "name": "AXP",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                329.87,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.5487051162229772,
+                2280587,
+                0.8671292675210177,
+                226219387414.78867,
+                "USD",
+                21.441710812831097,
+                15.3845,
+                9.80457932452108,
+                0.988875154511743,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "OTC:SIEGY",
+            "d": [
+                {
+                    "description": "Siemens AG",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "siemens",
+                        "style": "single"
+                    },
+                    "logoid": "siemens",
+                    "name": "SIEGY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                142.96,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.5087840165346178,
+                215500,
+                0.9919904253360339,
+                222029268335.69763,
+                "USD",
+                25.323272044496402,
+                5.6454,
+                -13.227789732554562,
+                1.58873647950396,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:TMUS",
+            "d": [
+                {
+                    "description": "T-Mobile US, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "t-mobile",
+                        "style": "single"
+                    },
+                    "logoid": "t-mobile",
+                    "name": "TMUS",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                198.36,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.349066626195187,
+                4571143,
+                0.8408424289612472,
+                218565501589.10733,
+                "USD",
+                20.42842430484037,
+                9.71,
+                0.34931067981233505,
+                1.92239591237922,
+                "Communications",
+                "america",
+                "Communications",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:MCD",
+            "d": [
+                {
+                    "description": "McDonald's Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "mcdonalds",
+                        "style": "single"
+                    },
+                    "logoid": "mcdonalds",
+                    "name": "MCD",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                306.94,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.4195786228160379,
+                2395212,
+                0.8629202932530866,
+                218049742349.6554,
+                "USD",
+                25.679983267098933,
+                11.9525,
+                4.916435518415788,
+                2.33170606372045,
+                "Consumer services",
+                "america",
+                "Consumer Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:PEP",
+            "d": [
+                {
+                    "description": "PepsiCo, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "pepsico",
+                        "style": "single"
+                    },
+                    "logoid": "pepsico",
+                    "name": "PEP",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                156.99,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.431280522610502,
+                5731013,
+                0.9283127756767637,
+                214568973744.61423,
+                "USD",
+                24.6564369964348,
+                6.3671,
+                -6.377190918715445,
+                3.60880319654976,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:SAP",
+            "d": [
+                {
+                    "description": "SAP SE",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "sap",
+                        "style": "single"
+                    },
+                    "logoid": "sap",
+                    "name": "SAP",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                178.94,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2581392782253622,
+                3200855,
+                0.8270393288838962,
+                214554423048.8989,
+                "USD",
+                25.334484857923574,
+                7.0631,
+                148.01952384296655,
+                1.05187893168524,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:TXN",
+            "d": [
+                {
+                    "description": "Texas Instruments Incorporated",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "texas-instruments",
+                        "style": "single"
+                    },
+                    "logoid": "texas-instruments",
+                    "name": "TXN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                233.7,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.6882777826124775,
+                6123287,
+                1.12349220715873,
+                212775298431.74353,
+                "USD",
+                42.91695743196092,
+                5.4454,
+                4.781696780773151,
+                2.41928465755809,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:ANET",
+            "d": [
+                {
+                    "description": "Arista Networks, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "arista-networks",
+                        "style": "single"
+                    },
+                    "logoid": "arista-networks",
+                    "name": "ANET",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                166.85,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.5953236314924222,
+                6113334,
+                0.8630098458919158,
+                209653333449.86603,
+                "USD",
+                60.59560559288179,
+                2.7535,
+                23.697214734950578,
+                0,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:BHP",
+            "d": [
+                {
+                    "description": "BHP Group Limited",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "bhp",
+                        "style": "single"
+                    },
+                    "logoid": "bhp",
+                    "name": "BHP",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                79.59,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.068986948415164,
+                2081408,
+                0.7876493842231945,
+                203594782612.852,
+                "USD",
+                19.739093772475883,
+                4.0321,
+                -9.901233464426177,
+                3.26911124922312,
+                "Non-energy minerals",
+                "america",
+                "Non-Energy Minerals",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NYSE:TMO",
+            "d": [
+                {
+                    "description": "Thermo Fisher Scientific Inc",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "thermo-fisher-scientific",
+                        "style": "single"
+                    },
+                    "logoid": "thermo-fisher-scientific",
+                    "name": "TMO",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                526.02,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.1101405241169846,
+                1437520,
+                0.8537646518081415,
+                195480263147.31604,
+                "USD",
+                29.653807776218095,
+                17.7387,
+                7.357622707740736,
+                0.334219521458412,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:NEE",
+            "d": [
+                {
+                    "description": "NextEra Energy, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "nextera-energy",
+                        "style": "single"
+                    },
+                    "logoid": "nextera-energy",
+                    "name": "NEE",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                92.01,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.03261578604044481,
+                7734786,
+                1.0889001862964787,
+                191868734055.6386,
+                "USD",
+                27.879283701481686,
+                3.3003,
+                -2.1669532222683396,
+                2.52522287453794,
+                "Utilities",
+                "america",
+                "Utilities",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:AMGN",
+            "d": [
+                {
+                    "description": "Amgen Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "amgen",
+                        "style": "single"
+                    },
+                    "logoid": "amgen",
+                    "name": "AMGN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                350.16,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.4466647903180372,
+                2107613,
+                0.8221870704351646,
+                188759935140.9342,
+                "USD",
+                24.601635612511593,
+                14.2332,
+                88.61163749122088,
+                2.71882915845764,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:DIS",
+            "d": [
+                {
+                    "description": "Walt Disney Company (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "walt-disney",
+                        "style": "single"
+                    },
+                    "logoid": "walt-disney",
+                    "name": "DIS",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                106.3,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.009408222786707032,
+                6423418,
+                0.7798324250024059,
+                188312566722.12717,
+                "USD",
+                15.661603288494687,
+                6.7873,
+                120.38119358399896,
+                1.17602784833945,
+                "Consumer services",
+                "america",
+                "Consumer Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:APH",
+            "d": [
+                {
+                    "description": "Amphenol Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "amphenol",
+                        "style": "single"
+                    },
+                    "logoid": "amphenol",
+                    "name": "APH",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                152.81,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.1584800741427248,
+                6102724,
+                0.8815576162020047,
+                187869315392.96384,
+                "USD",
+                45.76108765310095,
+                3.3393,
+                74.11231033943378,
+                0.549450549450549,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:TTE",
+            "d": [
+                {
+                    "description": "TotalEnergies SE",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "total",
+                        "style": "single"
+                    },
+                    "logoid": "total",
+                    "name": "TTE",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                87.31,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.2756402894223144,
+                1233405,
+                0.4741218325953095,
+                186750099446.65775,
+                "USD",
+                14.183275442491182,
+                6.155841811999999,
+                -4.680538643641392,
+                4.57095935404407,
+                "Energy minerals",
+                "america",
+                "Energy Minerals",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:ADI",
+            "d": [
+                {
+                    "description": "Analog Devices, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "analog-devices",
+                        "style": "single"
+                    },
+                    "logoid": "analog-devices",
+                    "name": "ADI",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                381.05,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                2.584466280791499,
+                4004109,
+                1.3644160242006191,
+                186030202270.94846,
+                "USD",
+                69.6058015490282,
+                5.4744,
+                74.57746029721282,
+                1.09570601696056,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "OTC:SBGSY",
+            "d": [
+                {
+                    "description": "Schneider Electric SE",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "schneider",
+                        "style": "single"
+                    },
+                    "logoid": "schneider",
+                    "name": "SBGSY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                64.65,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2977099236641134,
+                293202,
+                0.8266262039846946,
+                184590270876.3584,
+                "USD",
+                39.13675161934742,
+                1.6519,
+                1.7806531115218687,
+                0.94443347509113,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:TD",
+            "d": [
+                {
+                    "description": "Toronto Dominion Bank (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "toronto-dominion-bank",
+                        "style": "single"
+                    },
+                    "logoid": "toronto-dominion-bank",
+                    "name": "TD",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                106.44,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                1.0346464167062208,
+                3335893,
+                0.9352584163200875,
+                179829948941.99463,
+                "USD",
+                11.7723813125803,
+                9.04150122,
+                178.61071281530073,
+                2.93403620725532,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:ARM",
+            "d": [
+                {
+                    "description": "Arm Holdings plc",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "arm",
+                        "style": "single"
+                    },
+                    "logoid": "arm",
+                    "name": "ARM",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                175.1,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                5.020092364901341,
+                8562686,
+                1.5254722590277403,
+                177067255463,
+                "USD",
+                233.31112591605597,
+                0.7505,
+                -0.9763821084575898,
+                0,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:BA",
+            "d": [
+                {
+                    "description": "Boeing Company (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "boeing",
+                        "style": "single"
+                    },
+                    "logoid": "boeing",
+                    "name": "BA",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                225.08,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.7610350076103578,
+                5014519,
+                0.938314701119224,
+                176877797542.758,
+                "USD",
+                118.71934173743342,
+                1.8959,
+                null,
+                0,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:TJX",
+            "d": [
+                {
+                    "description": "TJX Companies, Inc. (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "tjx-cos",
+                        "style": "single"
+                    },
+                    "logoid": "tjx-cos",
+                    "name": "TJX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                159.69,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.6161314413741655,
+                4062245,
+                0.9157835835877043,
+                176746587667.68854,
+                "USD",
+                32.76498830481349,
+                4.8738,
+                14.421880502406387,
+                1.05800348518795,
+                "Retail trade",
+                "america",
+                "Retail Trade",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:SHOP",
+            "d": [
+                {
+                    "description": "Shopify Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "shopify",
+                        "style": "single"
+                    },
+                    "logoid": "shopify",
+                    "name": "SHOP",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                135.14,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                3.0423179565383,
+                5696129,
+                0.6897457270487312,
+                176237608465.7984,
+                "USD",
+                145.6107370517263,
+                0.9280908999999999,
+                -38.12199967762586,
+                0,
+                "Commercial services",
+                "america",
+                "Commercial Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:RIO",
+            "d": [
+                {
+                    "description": "Rio Tinto Plc",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "rio-tinto",
+                        "style": "single"
+                    },
+                    "logoid": "rio-tinto",
+                    "name": "RIO",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                99.83,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.3195207189216249,
+                2308215,
+                0.9512570672063984,
+                172584582132.106,
+                "USD",
+                16.377386967648796,
+                6.0956,
+                -13.847980326200638,
+                3.98901647528707,
+                "Non-energy minerals",
+                "america",
+                "Non-Energy Minerals",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:CRM",
+            "d": [
+                {
+                    "description": "Salesforce, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "salesforce",
+                        "style": "single"
+                    },
+                    "logoid": "salesforce",
+                    "name": "CRM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                186.27,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                2.267486548808622,
+                14381142,
+                0.9709159958825898,
+                171927209424.23407,
+                "USD",
+                23.85507914553558,
+                7.8084,
+                22.754283917623017,
+                0.91358295816405,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:BLK",
+            "d": [
+                {
+                    "description": "BlackRock, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "blackrock",
+                        "style": "single"
+                    },
+                    "logoid": "blackrock",
+                    "name": "BLK",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                1048.42,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.35356511490866493,
+                638308,
+                0.7204852508370189,
+                170870703297.05365,
+                "USD",
+                26.59418764220796,
+                39.4229,
+                -4.24036765884679,
+                2.03014807915296,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:GILD",
+            "d": [
+                {
+                    "description": "Gilead Sciences, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "gilead",
+                        "style": "single"
+                    },
+                    "logoid": "gilead",
+                    "name": "GILD",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                135.87,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.2859633827375632,
+                3871215,
+                0.7890865223537263,
+                168644838628.50046,
+                "USD",
+                20.033027144184125,
+                6.7823,
+                1747.534731680741,
+                2.31764022086603,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:ABT",
+            "d": [
+                {
+                    "description": "Abbott Laboratories",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "abbott",
+                        "style": "single"
+                    },
+                    "logoid": "abbott",
+                    "name": "ABT",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                96,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.8366904245429215,
+                9409237,
+                0.7302031726540338,
+                167199101252.1847,
+                "USD",
+                26.74467195988299,
+                3.5895,
+                -53.436936527909296,
+                2.47908273938643,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:APP",
+            "d": [
+                {
+                    "description": "Applovin Corporation",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "applovin-cdr-cad-hedged",
+                        "style": "single"
+                    },
+                    "logoid": "applovin-cdr-cad-hedged",
+                    "name": "APP",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                490.96,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                2.8834870075440047,
+                3795739,
+                0.813180819310302,
+                165590014711.49103,
+                "USD",
+                51.96498692831211,
+                9.4479,
+                108.07602519490815,
+                0,
+                "Technology services",
+                "america",
+                "Technology Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:ISRG",
+            "d": [
+                {
+                    "description": "Intuitive Surgical, Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "intuitive-surgical",
+                        "style": "single"
+                    },
+                    "logoid": "intuitive-surgical",
+                    "name": "ISRG",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                465.6,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.7693783167451582,
+                2442672,
+                1.302687116960961,
+                165366998941.7276,
+                "USD",
+                59.1155521133556,
+                7.8761,
+                22.806935478841172,
+                0,
+                "Health technology",
+                "america",
+                "Health Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:SCHW",
+            "d": [
+                {
+                    "description": "Charles Schwab Corporation (The)",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "schwab",
+                        "style": "single"
+                    },
+                    "logoid": "schwab",
+                    "name": "SCHW",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                93.15,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.9427828348504601,
+                11271633,
+                0.8839383332244843,
+                161903965100.9542,
+                "USD",
+                18.466021727063673,
+                5.0444,
+                53.34853321173433,
+                1.22453402687473,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:DE",
+            "d": [
+                {
+                    "description": "Deere \u0026 Company",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "deere",
+                        "style": "single"
+                    },
+                    "logoid": "deere",
+                    "name": "DE",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                594.52,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.6875994986959227,
+                920146,
+                0.7582333757135018,
+                160584179712.11288,
+                "USD",
+                33.519200302198264,
+                17.7367,
+                -21.386148268311935,
+                1.09744944619449,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:ETN",
+            "d": [
+                {
+                    "description": "Eaton Corporation, PLC",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "eaton",
+                        "style": "single"
+                    },
+                    "logoid": "eaton",
+                    "name": "ETN",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                407.57,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.33480219590852356,
+                2416451,
+                1.1783527839850003,
+                158131186410.02563,
+                "USD",
+                38.98885540727986,
+                10.4535,
+                10.029892848872699,
+                1.03887151965732,
+                "Producer manufacturing",
+                "america",
+                "Producer Manufacturing",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:UBER",
+            "d": [
+                {
+                    "description": "Uber Technologies, Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "uber",
+                        "style": "single"
+                    },
+                    "logoid": "uber",
+                    "name": "UBER",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                77.49,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.4797717842323526,
+                11507412,
+                0.8327190438154387,
+                157833561628.60928,
+                "USD",
+                16.409029307131963,
+                4.7224,
+                3.0281874509119624,
+                0,
+                "Transportation",
+                "america",
+                "Transportation",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:BX",
+            "d": [
+                {
+                    "description": "Blackstone Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "blackstone",
+                        "style": "single"
+                    },
+                    "logoid": "blackstone",
+                    "name": "BX",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                128.99,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.0697242020452459,
+                4362676,
+                0.6551115704223585,
+                157659574920.3207,
+                "USD",
+                33.353157159849,
+                3.8674,
+                6.707502138343958,
+                3.67214130771614,
+                "Finance",
+                "america",
+                "Finance",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:SCCO",
+            "d": [
+                {
+                    "description": "Southern Copper Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "southern-copper",
+                        "style": "single"
+                    },
+                    "logoid": "southern-copper",
+                    "name": "SCCO",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                190.76,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.832029641827914,
+                1029964,
+                0.7855217934623235,
+                156252111028.4638,
+                "USD",
+                36.725578529898726,
+                5.1942,
+                26.697075395760667,
+                1.71359587278716,
+                "Non-energy minerals",
+                "america",
+                "Non-Energy Minerals",
+                "Sell",
+                "Sell"
+            ]
+        },
+        {
+            "s": "OTC:SAFRY",
+            "d": [
+                {
+                    "description": "Safran SA",
+                    "exchange": "OTC",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "safran",
+                        "style": "single"
+                    },
+                    "logoid": "safran",
+                    "name": "SAFRY",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                89.32,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -3.3019378586121153,
+                263921,
+                0.8529745889387145,
+                154609815674.8365,
+                "USD",
+                18.67056856187291,
+                4.784,
+                null,
+                0.592878312787251,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:BKNG",
+            "d": [
+                {
+                    "description": "Booking Holdings Inc. Common Stock",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "booking",
+                        "style": "single"
+                    },
+                    "logoid": "booking",
+                    "name": "BKNG",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                192.03,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.010416124160205318,
+                5372203,
+                0.7724017481212274,
+                152055805345.91022,
+                "USD",
+                28.89841986455982,
+                6.645,
+                -3.987863025574349,
+                0.818707358991719,
+                "Consumer services",
+                "america",
+                "Consumer Services",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:BUD",
+            "d": [
+                {
+                    "description": "Anheuser-Busch Inbev SA Sponsored",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "anheuser-busch-inbev",
+                        "style": "single"
+                    },
+                    "logoid": "anheuser-busch-inbev",
+                    "name": "BUD",
+                    "type": "dr",
+                    "typespecs": [
+                        ""
+                    ]
+                },
+                75.05,
+                "dr",
+                [
+                    ""
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.9371700105596726,
+                1187912,
+                0.6763311758592462,
+                150684927009.65363,
+                "USD",
+                22.078724405742527,
+                3.3992,
+                18.878086311813668,
+                1.26807682154171,
+                "Consumer non-durables",
+                "america",
+                "Consumer Non-Durables",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NYSE:UNP",
+            "d": [
+                {
+                    "description": "Union Pacific Corporation",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "union-pacific",
+                        "style": "single"
+                    },
+                    "logoid": "union-pacific",
+                    "name": "UNP",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                252.18,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.4141116508720318,
+                2637205,
+                0.9764634687017986,
+                149713789217.53888,
+                "USD",
+                21.044286632229856,
+                11.9833,
+                8.078393881453152,
+                2.18204985267182,
+                "Transportation",
+                "america",
+                "Transportation",
+                "Buy",
+                "Buy"
+            ]
+        },
+        {
+            "s": "NYSE:WELL",
+            "d": [
+                {
+                    "description": "Welltower Inc.",
+                    "exchange": "NYSE",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "welltower-indrn",
+                        "style": "single"
+                    },
+                    "logoid": "welltower-indrn",
+                    "name": "WELL",
+                    "type": "fund",
+                    "typespecs": [
+                        "reit"
+                    ]
+                },
+                209.45,
+                "fund",
+                [
+                    "reit"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -0.508265247957449,
+                2124014,
+                0.8802561180297975,
+                146890859795,
+                "USD",
+                null,
+                -0.7091,
+                -186.24422281683286,
+                1.37279118373551,
+                "Finance",
+                "america",
+                "Finance",
+                "StrongBuy",
+                "Strong buy"
+            ]
+        },
+        {
+            "s": "NASDAQ:QCOM",
+            "d": [
+                {
+                    "description": "QUALCOMM Incorporated",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "qualcomm",
+                        "style": "single"
+                    },
+                    "logoid": "qualcomm",
+                    "name": "QCOM",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                137.52,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                0.9691629955947295,
+                7953826,
+                0.8746132934892116,
+                146733836712.44406,
+                "USD",
+                28.410875134286425,
+                4.8404,
+                -48.266427258347235,
+                2.58443465491924,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Neutral",
+                "Neutral"
+            ]
+        },
+        {
+            "s": "NASDAQ:HON",
+            "d": [
+                {
+                    "description": "Honeywell International Inc.",
+                    "exchange": "NASDAQ",
+                    "kind": "delay",
+                    "kind-delay": 900,
+                    "logo": {
+                        "logoid": "honeywell",
+                        "style": "single"
+                    },
+                    "logoid": "honeywell",
+                    "name": "HON",
+                    "type": "stock",
+                    "typespecs": [
+                        "common"
+                    ]
+                },
+                229.74,
+                "stock",
+                [
+                    "common"
+                ],
+                100,
+                1,
+                "false",
+                0,
+                "USD",
+                -1.6313423249839445,
+                3217841,
+                1.0027021946988643,
+                146040127847.88412,
+                "USD",
+                28.746246246246248,
+                7.992,
+                -8.252878577414508,
+                1.98672661100407,
+                "Electronic technology",
+                "america",
+                "Electronic Technology",
+                "Buy",
+                "Buy"
+            ]
+        }
+    ]
+}
