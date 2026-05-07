@@ -6,6 +6,13 @@ type Candle struct {
 	Volume int64
 }
 
+var ScanWindows = []int{1450, 1260, 1008, 756, 504, 252, 126, 50, 20, 10}
+
+type WindowHits struct {
+	Days int
+	Hits int
+}
+
 func CountConditions(candles []Candle, days int) int {
 	if len(candles) < 2 {
 		return 0
@@ -33,4 +40,15 @@ func CountConditions(candles []Candle, days int) int {
 	}
 
 	return count
+}
+
+func CountConditionsForWindows(candles []Candle, days []int) []WindowHits {
+	out := make([]WindowHits, 0, len(days))
+	for _, d := range days {
+		out = append(out, WindowHits{
+			Days: d,
+			Hits: CountConditions(candles, d),
+		})
+	}
+	return out
 }

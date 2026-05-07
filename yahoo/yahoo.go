@@ -57,15 +57,15 @@ var SharedClient = &http.Client{
 }
 
 type candleCacheEntry struct {
-	candles    []Candle
-	expiresAt  time.Time
-	fetching   bool
-	fetchDone  chan struct{}
+	candles   []Candle
+	expiresAt time.Time
+	fetching  bool
+	fetchDone chan struct{}
 }
 
 var (
-	cacheMu      sync.Mutex
-	candleBySym  = make(map[string]*candleCacheEntry)
+	cacheMu     sync.Mutex
+	candleBySym = make(map[string]*candleCacheEntry)
 )
 
 func FetchDaily(symbol string) ([]Candle, error) {
@@ -133,7 +133,7 @@ func fetchDailyFromYahoo(ctx context.Context, client *http.Client, symbol string
 	}
 
 	url := fmt.Sprintf(
-		"https://query1.finance.yahoo.com/v8/finance/chart/%s?range=1mo&interval=1d",
+		"https://query1.finance.yahoo.com/v8/finance/chart/%s?range=5y&interval=1d",
 		symbol,
 	)
 

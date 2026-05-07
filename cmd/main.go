@@ -4,7 +4,10 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os/exec"
+	"runtime"
 	"sort"
+	"strings"
 	"sync"
 	"time"
 
@@ -16,8 +19,8 @@ import (
 const (
 	scanWorkers   = 80
 	scanDeadline  = 15 * time.Second
-	conditionDays = 20
-	passThreshold = 5
+	passThreshold = 3
+	printTopN     = 25
 )
 
 // scanLimit: 0 = entire universe (~1000). Tuned for Yahoo latency + rate limits.
@@ -25,7 +28,7 @@ const scanLimit = 0
 
 type outcome struct {
 	symbol string
-	hits   int
+	hits   map[int]int
 	err    error
 }
 
@@ -56,7 +59,7 @@ func main() {
 	var mu sync.Mutex
 	outcomes := make([]outcome, 0, len(symbols))
 	var errCount int
-	var passCount int
+	passCounts := make(map[int]int, len(scanner.ScanWindows))
 
 	for range scanWorkers {
 		wg.Add(1)
@@ -91,11 +94,17 @@ func main() {
 					})
 				}
 
-				hits := scanner.CountConditions(buf, conditionDays)
+				windowHits := scanner.CountConditionsForWindows(buf, scanner.ScanWindows)
+				hitsByDays := make(map[int]int, len(windowHits))
+				for _, wh := range windowHits {
+					hitsByDays[wh.Days] = wh.Hits
+				}
 				mu.Lock()
-				outcomes = append(outcomes, outcome{symbol: symbol, hits: hits})
-				if hits >= passThreshold {
-					passCount++
+				outcomes = append(outcomes, outcome{symbol: symbol, hits: hitsByDays})
+				for _, days := range scanner.ScanWindows {
+					if hitsByDays[days] >= passThreshold {
+						passCounts[days]++
+					}
 				}
 				mu.Unlock()
 			}
@@ -110,43 +119,94 @@ func main() {
 	wg.Wait()
 
 	elapsed := time.Since(start)
+	passParts := make([]string, 0, len(scanner.ScanWindows))
+	for _, d := range scanner.ScanWindows {
+		passParts = append(passParts, fmt.Sprintf("pass %dd=%d", d, passCounts[d]))
+	}
 	log.Printf(
-		"scan: %d symbols in %s (%d pass, %d yahoo errors, deadline=%v)",
-		len(symbols), elapsed.Round(time.Millisecond), passCount, errCount, scanDeadline,
+		"scan: %d symbols in %s (%d yahoo errors, deadline=%v, %s)",
+		len(symbols),
+		elapsed.Round(time.Millisecond),
+		errCount,
+		scanDeadline,
+		strings.Join(passParts, ", "),
 	)
 	if ctx.Err() != nil {
 		log.Printf("context: %v", ctx.Err())
 	}
 
-	sort.Slice(outcomes, func(i, j int) bool {
-		// Show ranked results by hit count; push errors to the bottom.
-		if outcomes[i].err != nil && outcomes[j].err == nil {
-			return false
-		}
-		if outcomes[i].err == nil && outcomes[j].err != nil {
-			return true
-		}
-		if outcomes[i].hits != outcomes[j].hits {
-			return outcomes[i].hits > outcomes[j].hits
-		}
-		return outcomes[i].symbol < outcomes[j].symbol
-	})
+	csv, copiedCount := buildTopTickersCSV(outcomes, scanner.ScanWindows)
+	if copiedCount == 0 {
+		fmt.Println("Clipboard copy skipped: no successful ticker rows.")
+		return
+	}
+	if err := copyToClipboard(csv); err != nil {
+		fmt.Printf("Clipboard copy failed (%d tickers): %v\n", copiedCount, err)
+		fmt.Printf("Tickers CSV: %s\n", csv)
+		return
+	}
+	fmt.Printf("Copied %d unique tickers to clipboard (comma-separated).\n", copiedCount)
+}
 
-	printN := len(outcomes)
-	if printN > 25 {
-		printN = 25
+func buildTopTickersCSV(outcomes []outcome, windows []int) (string, int) {
+	seen := make(map[string]struct{}, printTopN*len(windows))
+	ordered := make([]string, 0, printTopN*len(windows))
+
+	for _, days := range windows {
+		ranked := rankOutcomesByWindow(outcomes, days)
+		limit := len(ranked)
+		if limit > printTopN {
+			limit = printTopN
+		}
+		for _, o := range ranked[:limit] {
+			if o.err != nil {
+				continue
+			}
+			if _, ok := seen[o.symbol]; ok {
+				continue
+			}
+			seen[o.symbol] = struct{}{}
+			ordered = append(ordered, o.symbol)
+		}
 	}
 
-	fmt.Printf("=== Scan results (top %d by hits) ===\n", printN)
-	fmt.Printf("%-8s %5s  %s\n", "symbol", "hits", "status")
-	for _, o := range outcomes[:printN] {
-		switch {
-		case o.err != nil:
-			fmt.Printf("%-8s %5s  ERR %v\n", o.symbol, "—", o.err)
-		case o.hits >= passThreshold:
-			fmt.Printf("%-8s %5d  PASS\n", o.symbol, o.hits)
-		default:
-			fmt.Printf("%-8s %5d  —\n", o.symbol, o.hits)
+	return strings.Join(ordered, ","), len(ordered)
+}
+
+func rankOutcomesByWindow(outcomes []outcome, days int) []outcome {
+	ranked := make([]outcome, len(outcomes))
+	copy(ranked, outcomes)
+
+	sort.Slice(ranked, func(i, j int) bool {
+		// Show ranked results by hit count for each window; push errors to the bottom.
+		if ranked[i].err != nil && ranked[j].err == nil {
+			return false
 		}
+		if ranked[i].err == nil && ranked[j].err != nil {
+			return true
+		}
+		ih := ranked[i].hits[days]
+		jh := ranked[j].hits[days]
+		if ih != jh {
+			return ih > jh
+		}
+		return ranked[i].symbol < ranked[j].symbol
+	})
+	return ranked
+}
+
+func copyToClipboard(text string) error {
+	switch runtime.GOOS {
+	case "windows":
+		cmd := exec.Command("powershell", "-NoProfile", "-Command", "Set-Clipboard -Value @'\n"+text+"\n'@")
+		return cmd.Run()
+	case "darwin":
+		cmd := exec.Command("pbcopy")
+		cmd.Stdin = strings.NewReader(text)
+		return cmd.Run()
+	default:
+		cmd := exec.Command("sh", "-c", "command -v wl-copy >/dev/null 2>&1 && wl-copy || xclip -selection clipboard")
+		cmd.Stdin = strings.NewReader(text)
+		return cmd.Run()
 	}
 }

@@ -13,6 +13,7 @@ import (
 const scannerURL = "https://scanner.tradingview.com/america/scan?label-product=screener-stock"
 
 const pageSize = 200
+const pageWorkers = 6
 
 var (
 	cacheMu        sync.Mutex
@@ -82,28 +83,106 @@ func FetchTickers() ([]string, error) {
 
 func fetchTickersFromAPI() ([]string, error) {
 	client := &http.Client{Timeout: 30 * time.Second}
-	out := make([]string, 0, pageSize)
-	start := 0
-
-	for {
-		resp, err := fetchPage(client, start, start+pageSize-1)
-		if err != nil {
-			return nil, err
-		}
-
-		for _, row := range resp.Data {
-			out = append(out, stripExchangePrefix(row.Symbol))
-		}
-
-		if len(resp.Data) == 0 {
-			break
-		}
-		if resp.TotalCount > 0 && len(out) >= resp.TotalCount {
-			break
-		}
-		start += len(resp.Data)
+	firstPage, err := fetchPage(client, 0, pageSize-1)
+	if err != nil {
+		return nil, err
 	}
 
+	firstTickers := make([]string, 0, len(firstPage.Data))
+	for _, row := range firstPage.Data {
+		firstTickers = append(firstTickers, stripExchangePrefix(row.Symbol))
+	}
+
+	totalCount := firstPage.TotalCount
+	if totalCount <= len(firstTickers) || len(firstPage.Data) == 0 {
+		return firstTickers, nil
+	}
+
+	lastStart := totalCount - 1
+	lastStart -= lastStart % pageSize
+	starts := make([]int, 0, lastStart/pageSize)
+	for start := pageSize; start <= lastStart; start += pageSize {
+		starts = append(starts, start)
+	}
+
+	type pageResult struct {
+		start   int
+		tickers []string
+	}
+
+	jobs := make(chan int, len(starts))
+	results := make(chan pageResult, len(starts))
+	errCh := make(chan error, 1)
+	done := make(chan struct{})
+	var once sync.Once
+	reportErr := func(e error) {
+		once.Do(func() {
+			errCh <- e
+			close(done)
+		})
+	}
+
+	var wg sync.WaitGroup
+	for range pageWorkers {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for {
+				select {
+				case <-done:
+					return
+				case start, ok := <-jobs:
+					if !ok {
+						return
+					}
+					resp, fetchErr := fetchPage(client, start, start+pageSize-1)
+					if fetchErr != nil {
+						reportErr(fetchErr)
+						return
+					}
+					tickers := make([]string, 0, len(resp.Data))
+					for _, row := range resp.Data {
+						tickers = append(tickers, stripExchangePrefix(row.Symbol))
+					}
+					select {
+					case <-done:
+						return
+					case results <- pageResult{start: start, tickers: tickers}:
+					}
+				}
+			}
+		}()
+	}
+
+	for _, start := range starts {
+		jobs <- start
+	}
+	close(jobs)
+
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	pages := make(map[int][]string, len(starts))
+	for r := range results {
+		pages[r.start] = r.tickers
+	}
+
+	select {
+	case fetchErr := <-errCh:
+		return nil, fetchErr
+	default:
+	}
+
+	out := make([]string, 0, totalCount)
+	out = append(out, firstTickers...)
+	for _, start := range starts {
+		out = append(out, pages[start]...)
+	}
+	if len(out) > totalCount {
+		out = out[:totalCount]
+	}
 	return out, nil
 }
 
