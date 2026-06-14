@@ -18,7 +18,7 @@ import (
 
 const (
 	scanWorkers   = 80
-	scanDeadline  = 15 * time.Second
+	scanDeadline  = 45 * time.Second
 	passThreshold = 3
 	printTopN     = 25
 )

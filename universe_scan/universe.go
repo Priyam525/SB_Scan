@@ -31,15 +31,15 @@ type scanResponse struct {
 }
 
 type scanPayload struct {
-	Columns             []string        `json:"columns"`
-	Filter              []filterExpr    `json:"filter"`
-	IgnoreUnknownFields bool            `json:"ignore_unknown_fields"`
-	Options             map[string]any  `json:"options"`
-	Range               [2]int          `json:"range"`
-	Sort                map[string]any  `json:"sort"`
-	Symbols             map[string]any  `json:"symbols"`
-	Markets             []string        `json:"markets"`
-	Filter2             map[string]any  `json:"filter2"`
+	Columns             []string       `json:"columns"`
+	Filter              []filterExpr   `json:"filter"`
+	IgnoreUnknownFields bool           `json:"ignore_unknown_fields"`
+	Options             map[string]any `json:"options"`
+	Range               [2]int         `json:"range"`
+	Sort                map[string]any `json:"sort"`
+	Symbols             map[string]any `json:"symbols"`
+	Markets             []string       `json:"markets"`
+	Filter2             map[string]any `json:"filter2"`
 }
 
 type filterExpr struct {
@@ -249,8 +249,8 @@ func buildPayload(start, end int) scanPayload {
 			"AnalystRating.tr",
 		},
 		Filter: []filterExpr{
-			{Left: "close", Operation: "egreater", Right: 60},
-			{Left: "volume", Operation: "greater", Right: 200000},
+			{Left: "close", Operation: "egreater", Right: 5},
+			{Left: "volume", Operation: "greater", Right: 100000},
 		},
 		IgnoreUnknownFields: false,
 		Options:             map[string]any{"lang": "en"},
